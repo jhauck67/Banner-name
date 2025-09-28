@@ -2,7 +2,7 @@
     <style>
         svg path {
             fill: transparent;
-            stroke: black;
+            stroke: white;
             stroke-width: 1px;
             stroke-dasharray: 500;
             stroke-dashoffset: 500;
@@ -19,12 +19,12 @@
             }
 
             75% {
-                fill: black;
+                fill: white;
                 stroke-dashoffset: 0;
             }
         
             95% {
-                fill: black;
+                fill: white;
                 stroke-dashoffset: 0;
             }
 
