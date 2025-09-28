@@ -2,11 +2,11 @@
     <style>
         svg path {
             fill: transparent;
-            stroke: white;
+            stroke: black;
             stroke-width: 1px;
             stroke-dasharray: 500;
             stroke-dashoffset: 500;
-            animation: textAnimation 7s ease-in-out infinite;
+            animation: textAnimation 10s ease-in-out infinite;
         }
 
         @keyframes textAnimation {
@@ -14,13 +14,23 @@
                 stroke-dashoffset: 500;
             }
 
-            80% {
+            60% {
                 fill: transparent;
             }
 
-            100% {
-                fill: white;
+            75% {
+                fill: black;
                 stroke-dashoffset: 0;
+            }
+        
+            95% {
+                fill: black;
+                stroke-dashoffset: 0;
+            }
+
+            100% {
+                fill: transparent;
+                stroke-dashoffset: 500;
             }
         }
     </style>
