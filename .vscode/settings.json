@@ -1,0 +1,104 @@
+{
+  "liveServer.settings.port": 5503,
+  "better-comments.tags": [
+    {
+      "tag": "MEDIA",
+      "color": "#efefef",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#690372",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "FUNCTION",
+      "color": "#efefef",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#197203",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "VARIABLES",
+      "color": "#efefef",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#690372",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "EVENT LISTENER",
+      "color": "#efefef",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#0A545C",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "§",
+      "color": "#efefef",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#0A545C",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#0d0d0d",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#2799A5",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "(",
+      "color": "#2799A5",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "¤",
+      "color": "#80FF80",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "!",
+      "color": "#f0440a",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "todo",
+      "color": "#6FBAC3",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "*",
+      "color": "#7CFF00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    }
+  ]
+}
