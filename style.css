@@ -1,0 +1,229 @@
+:root {
+  --background-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 0%, 0%);
+  --primary-accent-color: hsl(0, 0%, 50%);
+  --primary-accent-text: hsl(0, 0%, 0%);
+  --secondary-accent-color: hsl(0, 0%, 30%);
+  --separator-color: hsl(0, 0%, 50%, 0.1);
+  --border-color: hsl(0, 0%, 50%, 0.3);
+  --card-background: hsl(0, 0%, 50%, 0.3);
+  --hover-color: hsl(0, 0%, 50%, 0.6);
+  --active-color: hsl(0, 0%, 50%, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  list-style: none;
+  stroke: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+body {
+  background: var(--background-color);
+}
+
+/** LINKS ------------------------------------*/
+.links {
+  color: var(--secondary-accent-color);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.links:hover {
+  color: var(--hover-color);
+  transform: scale(1.05);
+}
+.links:active {
+  color: var(--active-color);
+  transform: scale(0.95);
+}
+.active-link {
+  color: var(--active-color);
+}
+
+/** BUTTONS -------------------------------------*/
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.button:hover {
+  border: 1px solid var(--hover-color);
+  transform: scale(1.05);
+}
+.button:active {
+  transform: scale(0.95);
+}
+.primary-button {
+  border: 1px solid var(--primary-accent-color);
+  background-color: var(--primary-accent-color);
+  color: var(--primary-accent-text);
+}
+.primary-button:hover {
+  background-color: var(--hover-color);
+}
+.primary-button:active {
+  background-color: var(--active-color);
+}
+.secondary-button {
+  border: 1px solid var(--secondary-accent-color);
+  background-color: transparent;
+  color: var(--secondary-accent-color);
+}
+.secondary-button:hover {
+  color: var(--hover-color);
+}
+.secondary-button:active {
+  color: var(--active-color);
+}
+
+/** NAVBAR ------------------------------------*/
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+.navbar-container-left svg {
+  width: 21px;
+  height: 30px;
+}
+.navbar-container-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navbar-container-right-links ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+input.secondary-button {
+  height: 40px;
+  width: 120px;
+  padding: 0.25rem 0.5rem;
+}
+
+/** HEADER ------------------------------------*/
+.header-container {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+
+/** IMG-CONTAINER-------------------------------*/
+.img-container {
+  padding: 2rem 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.img {
+  width: 400px;
+  height: 300px;
+  border: 1px solid var(--text-color);
+  background: linear-gradient(0deg, var(--text-color) 0%, var(--background-color) 100%);
+}
+
+/** ARTICLES-CONTAINER--------------------------*/
+.articles-container {
+  padding: 1rem 2rem 3rem;
+  border-bottom: 1px solid var(--border-color);
+}
+.articles-container h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 0;
+}
+h3 {
+  margin: 0.5rem 0 2rem;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.card {
+  display: flex;
+  gap: 0.5rem;
+}
+h4 {
+  font-size: 1.1rem;
+}
+
+/** FOOTER--------------------------------------*/
+.footer-container {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-container-column-header {
+  height: 40px;
+}
+.column-title {
+  font-weight: bold;
+  font-weight: 1.1rem;
+}
+.footer-container-column-main ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.first-column-header svg {
+  width: 21px;
+  height: 30px;
+}
+.first-column-main ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.first-column-main ul li svg {
+  height: 30px;
+  fill: var(--secondary-accent-color);
+  transition: all 0.3s ease;
+}
+.first-column-main ul li svg:hover {
+  fill: var(--hover-color);
+  transform: scale(1.05);
+}
+.first-column-main ul li svg:active {
+  fill: var(--active-color);
+  transform: scale(0.95);
+}
+
+.first-column-header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
